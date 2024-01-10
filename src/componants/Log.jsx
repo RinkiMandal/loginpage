@@ -9,7 +9,7 @@ import swal from "sweetalert";
 
 
 
-const Login = () => {
+const Log = () => {
   const navigate = useNavigate();
   const useAppstate = useContext(Appstate);
   const [form, setForm] = useState({
@@ -91,7 +91,7 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Log;
 
 
 

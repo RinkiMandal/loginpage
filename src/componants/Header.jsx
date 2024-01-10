@@ -73,7 +73,7 @@ const Header = () => {
           </div>
         </Link>
       ) : (
-        <Link to='/login'>
+        <Link to='/log'>
           {/* Login Button */}
           <h1 className='text-lg cursor-pointer capitalize flex items-center '>
             <button className='text-white font-medium text-center bg-green-500 rounded-md p-1'>Login</button>

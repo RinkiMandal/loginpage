@@ -5,7 +5,8 @@ import Header from './componants/Header.jsx'
 import Footer from './componants/Footer.jsx'
 import SignUp from './componants/SignUp.jsx'
 // import Login from './componants/Login.jsx'
-import Login from './componants/Login.jsx';
+// import Login from './componants/Log.jsx';
+import Log from './componants/Log.jsx';
 import Home from './componants/Home.jsx'
 import Cart from './componants/Cart.jsx';
 import LabTests from './componants/LabTests.jsx'
@@ -28,7 +29,7 @@ function App() {
           <Routes>
     <Route path='/' element={<Home />}/>
    <Route path='signup' element={<SignUp />} />
-   <Route path='login' element={<Login />} />
+   <Route path='log' element={<Log />} />
    <Route path='cart' element={<Cart />} />
    <Route path='labtests' element={<LabTests />} />
    <Route path='offier' element={<Offier />} />
