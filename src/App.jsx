@@ -4,12 +4,14 @@ import { createContext, useState } from 'react';
 import Header from './componants/Header.jsx'
 import Footer from './componants/Footer.jsx'
 import SignUp from './componants/SignUp.jsx'
-import Login from './componants/Login.jsx'
+// import Login from './componants/Login.jsx'
+import Login from './componants/Login.jsx';
 import Home from './componants/Home.jsx'
 import Cart from './componants/Cart.jsx';
 import LabTests from './componants/LabTests.jsx'
 import Offier from './componants/Offier.jsx';
 import DoctorAp from './componants/DoctorAp.jsx';
+import { inMemoryPersistence } from 'firebase/auth';
 
 
 const Appstate = createContext();
